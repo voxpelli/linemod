@@ -56,7 +56,7 @@ if (cli.input.length === 0) {
 
 linemod(cli.input, { outputExtension: '.' + extension }).then(() => {
   if (verbose) {
-    console.log(chalk.bgGreen.black(`Modifications applied successfully on ${chalk.bold(cli.input.length)} files\n`));
+    console.log(`Modifications applied successfully on ${chalk.bold(cli.input.length)} file(s)\n`);
   }
 }).catch(err => {
   console.error(chalk.bgRed('Unexpected error:') + ' ' + err.message + '\n\n' + err.stack + '\n');
