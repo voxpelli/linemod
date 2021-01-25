@@ -1,0 +1,7 @@
+{
+  "extends": "@voxpelli",
+  "root": true,
+  "rules": {
+    "no-console": 0
+  }
+}
