@@ -19,7 +19,7 @@
     "check:eslint": "eslint .",
     "check:tsc": "tsc",
     "check": "run-p check:*",
-    "dummy-run": "./cli.js --verbose -e foo cli.js",
+    "dummy-run": "node cli.js --verbose -e foo cli.js",
     "test": "run-s check"
   },
   "keywords": [],
