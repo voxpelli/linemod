@@ -19,8 +19,9 @@
     "check:eslint": "eslint .",
     "check:tsc": "tsc",
     "check": "run-p check:*",
-    "dummy-run": "node cli.js --verbose -e foo cli.js",
-    "test": "run-s check"
+    "test:dummy-run": "node cli.js --verbose -e foo cli.js",
+    "test-ci": "run-s test:*",
+    "test": "run-s check test:*"
   },
   "keywords": [],
   "author": "Pelle Wessman <pelle@kodfabrik.se> (http://kodfabrik.se/)",
@@ -48,6 +49,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-unicorn": "^24.0.0",
+    "ghat": "^0.14.0",
     "installed-check": "^4.0.0",
     "npm-run-all": "^4.1.5",
     "typescript": "^4.1.3"
