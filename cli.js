@@ -3,10 +3,10 @@
 
 'use strict';
 
-const chalk = require('chalk');
-const meow = require('meow');
+import chalk from 'chalk';
+import meow from 'meow';
 
-const { linemod } = require('linemod-core');
+import { linemod } from 'linemod-core';
 
 const cli = meow(`
   Usage
@@ -23,6 +23,7 @@ const cli = meow(`
   Examples
     $ linemod -e mjs index.js lib/utils.js
 `, {
+  importMeta: import.meta,
   flags: {
     extension: {
       alias: 'e',
