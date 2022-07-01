@@ -56,11 +56,17 @@ if (cli.input.length === 0) {
   process.exit(1);
 }
 
-linemod(cli.input, { outputExtension: '.' + extension }).then(() => {
+try {
+  await linemod(cli.input, { outputExtension: '.' + extension });
+
   if (verbose) {
     console.log(`Modifications applied successfully on ${chalk.bold(cli.input.length)} file(s)\n`);
   }
-}).catch(err => {
-  console.error(chalk.bgRed('Unexpected error:') + ' ' + err.message + '\n\n' + err.stack + '\n');
+} catch (err) {
+  console.error(
+    chalk.bgRed('Unexpected error:') +
+    (err instanceof Error ? ' ' + err.message + '\n\n' + err.stack : '') +
+    '\n'
+  );
   process.exit(1);
-});
+}
