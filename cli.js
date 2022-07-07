@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* eslint-disable promise/always-return, no-console */
+/* eslint-disable no-console */
 
 'use strict';
 

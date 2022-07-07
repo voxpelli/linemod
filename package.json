@@ -17,7 +17,7 @@
   "scripts": {
     "check:dependency-check": "dependency-check *.js --no-dev",
     "check:installed-check": "installed-check -i eslint-plugin-jsdoc",
-    "check:eslint": "eslint .",
+    "check:eslint": "eslint --report-unused-disable-directives .",
     "check:tsc": "tsc",
     "check": "run-p check:*",
     "prepare": "husky install",
@@ -37,6 +37,7 @@
     "meow": "^10.1.2"
   },
   "devDependencies": {
+    "@microsoft/eslint-formatter-sarif": "^3.0.0",
     "@types/node": "^14.18.21",
     "@voxpelli/eslint-config": "^14.1.0",
     "@voxpelli/tsconfig": "^4.0.0",
