@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 /* eslint-disable no-console */
 
-'use strict';
-
 import chalk from 'chalk';
 import meow from 'meow';
 
