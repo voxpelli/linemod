@@ -1,6 +1,6 @@
 # Linemod
 
-[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat)](https://github.com/standard/semistandard)
+[![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/voxpelli/eslint-config)
 
 CLI companion for [linemod-core](https://github.com/voxpelli/linemod-core/), a comment driven line modification tool.
 
