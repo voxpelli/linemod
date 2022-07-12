@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "chalk": "^5.0.1",
-    "linemod-core": "^0.2.0",
+    "linemod-core": "^0.3.0",
     "meow": "^10.1.2"
   },
   "devDependencies": {
