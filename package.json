@@ -34,7 +34,7 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "linemod-core": "^0.3.1",
-    "meow": "^10.1.2"
+    "meow": "^11.0.0"
   },
   "devDependencies": {
     "@types/node": "^14.18.23",
