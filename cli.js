@@ -31,12 +31,12 @@ const cli = meow(`
       alias: 'v',
       type: 'boolean',
     },
-  }
+  },
 });
 
 const {
   extension,
-  verbose
+  verbose,
 } = cli.flags;
 
 if (!extension) {
