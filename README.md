@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/linemod.svg?style=flat)](https://www.npmjs.com/package/linemod)
 [![npm downloads](https://img.shields.io/npm/dm/linemod.svg?style=flat)](https://www.npmjs.com/package/linemod)
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg)](https://github.com/voxpelli/eslint-config)
-[![Follow @voxpelli](https://img.shields.io/twitter/follow/voxpelli?style=social)](https://twitter.com/voxpelli)
+[![Follow @voxpelli@mastodon.social](https://img.shields.io/mastodon/follow/109247025527949675?domain=https%3A%2F%2Fmastodon.social&style=social)](https://mastodon.social/@voxpelli)
 
 CLI companion for [linemod-core](https://github.com/voxpelli/linemod-core/), a comment driven line modification tool.
 
