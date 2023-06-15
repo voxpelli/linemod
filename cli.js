@@ -24,11 +24,11 @@ const cli = meow(`
   importMeta: import.meta,
   flags: {
     extension: {
-      alias: 'e',
+      shortFlag: 'e',
       type: 'string',
     },
     verbose: {
-      alias: 'v',
+      shortFlag: 'v',
       type: 'boolean',
     },
   },
