@@ -15,8 +15,8 @@
     "cli.js"
   ],
   "scripts": {
-    "check:dependency-check": "dependency-check *.js --no-dev",
-    "check:installed-check": "installed-check -i eslint-plugin-jsdoc",
+    "check:installed-check": "installed-check -i eslint-plugin-jsdoc -i knip",
+    "check:knip": "knip",
     "check:lint": "eslint --report-unused-disable-directives .",
     "check:tsc": "tsc",
     "check:type-coverage": "type-coverage --detail --strict --at-least 100",
@@ -41,7 +41,6 @@
     "@types/node": "^16.18.36",
     "@voxpelli/eslint-config": "^18.0.0",
     "@voxpelli/tsconfig": "^8.0.0",
-    "dependency-check": "^5.0.0-7",
     "eslint": "^8.42.0",
     "eslint-plugin-es-x": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
@@ -54,6 +53,7 @@
     "eslint-plugin-unicorn": "^47.0.0",
     "husky": "^8.0.3",
     "installed-check": "^7.0.0",
+    "knip": "^2.13.0",
     "npm-run-all2": "^6.0.5",
     "type-coverage": "^2.26.0",
     "typescript": "~5.1.3"
