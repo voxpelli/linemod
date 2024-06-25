@@ -30,7 +30,7 @@
   "author": "Pelle Wessman <pelle@kodfabrik.se> (http://kodfabrik.se/)",
   "license": "MIT",
   "engines": {
-    "node": ">=16.10.0"
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
   },
   "dependencies": {
     "chalk": "^5.2.0",
@@ -38,7 +38,7 @@
     "meow": "^12.0.1"
   },
   "devDependencies": {
-    "@types/node": "^16.18.36",
+    "@types/node": "^18.19.39",
     "@voxpelli/eslint-config": "^18.0.0",
     "@voxpelli/tsconfig": "^8.0.0",
     "eslint": "^8.42.0",
