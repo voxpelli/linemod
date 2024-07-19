@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.0.1](https://github.com/voxpelli/linemod/compare/v2.0.0...v2.0.1) (2024-07-19)
+
+
+### 🩹 Fixes
+
+* update `linemod-core` to get latest fixes ([741ad97](https://github.com/voxpelli/linemod/commit/741ad97abecb7d509c5278470f3c5e936130dd46))
+
+
+### 🧹 Chores
+
+* **deps:** update dev dependencies ([2e2e6f2](https://github.com/voxpelli/linemod/commit/2e2e6f244edd9d47b53979898f6864b3953b85fb))
+* **deps:** update linting dependencies ([#23](https://github.com/voxpelli/linemod/issues/23)) ([a3cf58b](https://github.com/voxpelli/linemod/commit/a3cf58b7638cfd43ffe42e9f24dfb65806d1a1ba))
+* **deps:** update type dependencies ([#36](https://github.com/voxpelli/linemod/issues/36)) ([26f58bd](https://github.com/voxpelli/linemod/commit/26f58bd49d54e8c0b68ddcfb58b12f77ef8d4db2))
+* update husky related files ([5b3be7d](https://github.com/voxpelli/linemod/commit/5b3be7d3b96e0df3b13fa93f1c725b8fa90401d4))
+
 ## [2.0.0](https://github.com/voxpelli/linemod/compare/v1.1.0...v2.0.0) (2024-06-25)
 
 
