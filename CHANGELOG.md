@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/voxpelli/linemod/compare/v2.0.1...v2.0.2) (2024-11-25)
+
+
+### 🧹 Chores
+
+* **deps:** update dependency @voxpelli/eslint-config to v22 ([#48](https://github.com/voxpelli/linemod/issues/48)) ([958b6a3](https://github.com/voxpelli/linemod/commit/958b6a3ef02a3f0ad6e18fb661b4fdb7ac13c9aa))
+
 ## [2.0.1](https://github.com/voxpelli/linemod/compare/v2.0.0...v2.0.1) (2024-07-19)
 
 
